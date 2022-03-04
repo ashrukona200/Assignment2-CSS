@@ -1,0 +1,99 @@
+/* Deleting default properties to make the section vertically and horizontally centered. */
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*Setting width 800px and 500px and the content vertically and horizontally centered.*/
+#container{
+    height: 500px;
+    width: 800px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    border: 15px solid transparent;
+    box-shadow: 0 0 0 1px black,
+        inset 0 0 0 2px black;
+}
+
+/* Applying style and appearance for the top box*/
+#pink_div{
+    margin: 1px;
+    border: 1px solid black;
+    background-color: #FF9999;
+    height: 180px;
+    width: 769px;
+    padding-top: 15px;
+}
+
+/* Applying required style and appearance of heading for the top box*/
+.heading1{
+    padding: 0 70px 0 100px;
+    color: rgb(54, 51, 51);
+    font-weight: 549;
+}
+
+/* Applying required style and appearance of paragraph for the top box*/
+#para1{
+    color: rgb(48, 46, 46);
+    text-align: center;
+    font-size:130%;
+    padding-top: 30px;
+}
+
+/* Applying style and appearance for the bottom-left box*/
+#yellow_div{
+    border: 1px solid black;
+    
+    background-color: rgb(255, 255, 111);
+    height: 288px;
+    width: 550px;
+    margin-top: 0.1px;
+}
+
+/* Setting height, wifth and margin for the image of bottom left box*/
+#img1{
+    height: 274px;
+    width: 526px;
+    margin-top: 6px;
+    margin-left: 12px;
+}
+
+/* Applying style and appearance for the bottom-right box*/
+#grey_div{
+    border: 1px solid black;
+    float: right;
+    background-color: #ECECFB;
+    height: 288px;
+    width: 220px;
+    margin-top: 0.1px;
+    flex-direction: row;
+}
+
+/* Setting height, wifth and margin for the image of bottom right box*/
+#img2{
+    height: 130px;
+    width: 130px;
+    margin: 10px 0 0 50px;
+}
+
+/* Applying style and appearance for the heading of the bottom-right box*/
+#abt_me{
+    margin: 0 0 10px 50px;
+    color: rgb(48, 46, 46);
+    font-weight: 549;
+    font-size: xx-large ;
+}
+
+/* Applying style and appearance for the paragraph of the bottom-right box*/
+#para2{
+    text-align: center;
+    color: rgb(48, 46, 46);
+    font-size: medium;
+}
